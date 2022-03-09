@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f56;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  margin-bottom: 85px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 5px;
+  max-height: 70px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-list__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.button {
+  max-height: 70px;
+  padding: 14px 38px;
+  border-radius: 9px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(115.11deg, #f6a 10.12%, #f54 100.01%);
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 3px 10px #fff;
+}
+
+.button:hover {
+    box-shadow: 0 7px 7px #000;
+    cursor: pointer;
+ 
+}
+
+.hero-container {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.hero-img {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.hero-column--img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+
+.hero-title--upper {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 65px;
+}
+
+.hero-desc {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.hero-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hero-feature {
+  background: #77b2d3;
+  color: #fff;
+  border-radius: 250px;
+  padding: 14px 30px;
+}
+
+.adv-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.adv-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.advantage-card {
+  max-width: 300px;
+  border-radius: 10px; 
+  background-color: #fff;
+  box-shadow: 0px 4px 18px rgba(0, 255, 242, 0.08);
+}
+.advantage-card__title {
+  text-align: center;
+  padding: 20px 38px;
+  background: #77B2D3;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid rgb(4, 129, 160);
+}
+.advantage-card__list {
+  padding: 20px 0 20px 40px;
+}
+
+.footer{
+  background-color: #fff;
+  box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-list{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+

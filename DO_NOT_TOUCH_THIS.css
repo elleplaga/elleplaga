@@ -1,0 +1,81 @@
+.nav-list a {
+    text-decoration: none;
+    color: black;
+  }
+  
+.button:hover {
+    box-shadow: 0 7px 7px #red;
+    cursor: pointer;
+  }
+
+  .nav-list__item a:hover {
+    color: #0008;
+  }
+
+  .footer-item:last-of-type{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+.advantage-card__list-item:not(:last-child) {
+    margin-bottom: 7px;
+  }
+
+  @media (max-width: 768px) {
+    .nav-list {
+      display: none;
+    }
+  
+    .header__container {
+      padding: 0 20px;
+    }
+  
+    .hero-container {
+      grid-template-columns: 1fr;
+      margin-bottom: 30px;
+    }
+  
+    .hero-column--img {
+      order: -1;
+    }
+  
+    .header {
+      margin-bottom: 30px;
+    }
+  
+    .button {
+      padding: 10px 19px;
+    }
+  
+    .hero-title {
+      font-size: 36px;
+      line-height: 30px;
+    }
+  
+    .adv-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .hero-title {
+      font-size: 30px;
+    }
+  
+    .hero-desc {
+      font-size: 15px;
+    }
+  
+    .adv-container{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 367px) {
+    .button {
+      padding: 7px 12px;
+    }
+  }
